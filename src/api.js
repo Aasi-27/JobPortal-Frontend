@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://job-portal-backend-production-b9a4.up.railway.app',
 });
 
 API.interceptors.request.use((config) => {
