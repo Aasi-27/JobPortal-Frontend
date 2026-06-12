@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL:'https://jobportal-backend-production-47ad.up.railway.app',});
+const API = axios.create({ baseURL:'https://jobportal-backend-vjx3.onrender.com',});
 
 API.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
